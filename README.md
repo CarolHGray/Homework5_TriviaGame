@@ -20,13 +20,13 @@ https://carolhgray.github.io/Homework5_TriviaGame/
 
 
 
-Built With
+Built With:
 
-HTML5
-CSS3
-Twitter-Bootstrap - Framework
-JavaScript
-jQuery - JavaScript Library
+* HTML5
+* CSS
+* Bootstrap 
+* JavaScript
+* jQuery - JavaScript Library
 
 
 
