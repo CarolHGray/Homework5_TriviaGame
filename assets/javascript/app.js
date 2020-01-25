@@ -171,7 +171,7 @@ function answerPage(){
 		correctAnswer++;
 		$('#message').html(messages.correct);
 		//$('#img').html("assets/images/'+ imgArray[currentQuestion]");
-		$('#img').html('<img src = "assets/images/+ imgArray[currentQuestion]" width = "250px">');
+		$('#img').html('<img src = "assets/images/+ 'imgArray[currentQuestion]'" width = "250px">');
 
 	} else if((userSelect != rightAnswerIndex) && (answered == true)){
 		incorrectAnswer++;
