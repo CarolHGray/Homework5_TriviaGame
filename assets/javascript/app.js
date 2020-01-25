@@ -170,8 +170,8 @@ function answerPage(){
 	if((userSelect == rightAnswerIndex) && (answered == true)){
 		correctAnswer++;
 		$('#message').html(messages.correct);
-		$('#img').html("assets/images/'+ imgArray[currentQuestion]");
-		
+		//$('#img').html("assets/images/'+ imgArray[currentQuestion]");
+		$('#img').html('<img src = "assets/images/'+ imgArray[currentQuestion] +'.jpg" width = "400px">');
 
 	} else if((userSelect != rightAnswerIndex) && (answered == true)){
 		incorrectAnswer++;
